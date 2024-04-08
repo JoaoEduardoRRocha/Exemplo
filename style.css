@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -56,6 +57,12 @@ button {
 
   font-size: 18px;
   padding: 15px 35px;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 section {
@@ -84,3 +91,4 @@ h2 {
 .paragraphB {
   max-width: 400px;
 }
+
