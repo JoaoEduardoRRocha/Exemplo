@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,21 +38,12 @@ h1 {
   max-width: 400px;
 }
 
-.imgA {
-  position: relative;
-}
-
-.imgB {
-  position: absolute;
-  top: 200px;
-  left: 1220px;
-}
-
 button {
   background-color: #252525;
   color: white;
   border: none;
   border-radius: 35px;
+  margin-bottom: 50px;
 
   font-size: 18px;
   padding: 15px 35px;
@@ -69,11 +59,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
   padding: 64px;
   gap: 100px;
-  margin-top: 75px;
-  margin-left: 600px;
-  max-width: 830px;
+  max-width: 950px;
   border-radius: 40px;
 
   background-color: #252525;
@@ -91,4 +80,3 @@ h2 {
 .paragraphB {
   max-width: 400px;
 }
-
